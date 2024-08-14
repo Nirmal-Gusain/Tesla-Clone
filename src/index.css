@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Universal";
+    src: url(./assets/Universal-Sans-Text-Regular.woff2);
+}
+
+*{
+    font-family: Universal;
+}
+
