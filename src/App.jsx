@@ -1,12 +1,28 @@
 import React from "react";
-import Navbar from "./Components/Navbar";
 import First from "./Components/First";
+import Second from "./Components/Second";
+import Third from "./Components/Third";
+import Fourth from "./Components/Fourth";
+import Fifth from "./Components/Fifth";
+import Sixth from "./Components/Sixth";
+import Seventh from "./Components/Seventh";
+import Eight from "./Components/Eight";
+import Ninth from "./Components/Ninth";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
-    <div className="bg-[url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-3-Desktop-US.png)] h-screen w-full bg-cover bg-no-repeat bg-center">
-      <Navbar/>
+    <div>
       <First/>
+      <Second/>
+      <Third/>
+      <Fourth/>
+      <Fifth/>
+      <Sixth/>
+      <Seventh/>
+      <Eight/>
+      <Ninth/>
+      <Footer/>
     </div>
   );
 }

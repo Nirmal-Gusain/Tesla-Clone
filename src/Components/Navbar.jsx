@@ -14,8 +14,8 @@ function Navbar() {
         />
       </div>
       <div className=" w-96 text-white text-sm ">
-        <ul className="flex justify-between">
-          <li>Vehicles</li>
+        <ul className="flex justify-between ">
+          <li >Vehicles</li>
           <li>Energy</li>
           <li>Charging</li>
           <li>Discover</li>
@@ -23,9 +23,9 @@ function Navbar() {
         </ul>
       </div>
       <div className="flex  justify-between invert w-24">
-        <HiOutlineQuestionMarkCircle size={23} />
-        <MdLanguage size={23} />
-        <CgProfile size={23} />
+        <HiOutlineQuestionMarkCircle size={33} className="hover:bg-black/10 p-1 rounded-md"/>
+        <MdLanguage size={33} className="hover:bg-slate-900/10 p-1 rounded-md"/>
+        <CgProfile size={33} className="hover:bg-slate-900/10 p-1 rounded-md"/>
       </div>
     </div>
   );
